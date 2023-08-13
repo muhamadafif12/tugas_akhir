@@ -1,13 +1,8 @@
 import 'package:flutter/material.dart';
 
-class HotelFavorite extends StatefulWidget {
-  const HotelFavorite({super.key});
+lass HotelFavorite extends StatelessWidget {
+  const HotelFavorite({ super.key });
 
-  @override
-  State<HotelFavorite> createState() => _HotelFavoriteState();
-}
-
-class _HotelFavoriteState extends State<HotelFavorite> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
